@@ -13,11 +13,11 @@ public class DemoRunner {
 
 	public static void main(String[] args) {
 
-		Patterns currentPattern = Patterns.COMPOSITE_ENTITY;
+		Patterns currentPattern = Patterns.DATA_ACCESS_OBJECT;
 
 		try {
 			PatternExampleRunner.PatternExampleRunnerHolder.getInstance()
-			.runPatternExample(currentPattern);
+			        .runPatternExample(currentPattern);
 		} catch (Exception e) {
 
 			System.out.println(e.getMessage());
@@ -26,12 +26,12 @@ public class DemoRunner {
 
 		/*
 		 * String exampleName = "Example JSON"; Demo example;
-		 *
+		 * 
 		 * switch (exampleName) { case "Example JSON": example = new
 		 * ExampleJson(); example.run(); break;
-		 *
+		 * 
 		 * default: }
-		 *
+		 * 
 		 * System.out.println("Execution is completed.");
 		 */
 	}
