@@ -23,7 +23,7 @@ public class PatternExampleRunner {
 		patternDemos.put(Patterns.COMPOSITE_ENTITY,"");
 		patternDemos.put(Patterns.COMPOSITE,"com.material.patterns.composite.CompositePatternDemo");
 		patternDemos.put(Patterns.DATA_ACCESS_OBJECT,"");
-		patternDemos.put(Patterns.DECORATOR,"");
+		patternDemos.put(Patterns.DECORATOR,"com.material.patterns.decorator.DecoratorPatternDemo");
 		patternDemos.put(Patterns.FACADE,"");
 		patternDemos.put(Patterns.FACTORY,"");
 		patternDemos.put(Patterns.FILTER,"");

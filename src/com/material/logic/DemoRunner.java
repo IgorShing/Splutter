@@ -13,7 +13,7 @@ public class DemoRunner {
 
 	public static void main(String[] args) {
 
-		Patterns currentPattern = Patterns.COMPOSITE;
+		Patterns currentPattern = Patterns.DECORATOR;
 
 		try {
 			PatternExampleRunner.PatternExampleRunnerHolder.getInstance().runPatternExample(currentPattern);
