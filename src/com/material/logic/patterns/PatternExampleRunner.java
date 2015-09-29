@@ -36,7 +36,7 @@ public class PatternExampleRunner {
 				"com.material.patterns.dao.DaoPatternDemo");
 		patternDemos.put(Patterns.DECORATOR, "com.material.patterns.decorator.DecoratorPatternDemo");
 		patternDemos.put(Patterns.FACADE, "com.material.patterns.facade.FacadePatternDemo");
-		patternDemos.put(Patterns.FACTORY, "");
+		patternDemos.put(Patterns.FACTORY, "com.material.patterns.factory.FactoryPatternDemo");
 		patternDemos.put(Patterns.FILTER, "");
 		patternDemos.put(Patterns.FLYWEIGHT, "");
 		patternDemos.put(Patterns.FRONT_CONTROLLER, "");

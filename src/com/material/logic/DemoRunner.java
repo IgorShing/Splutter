@@ -13,7 +13,7 @@ public class DemoRunner {
 
 	public static void main(String[] args) {
 
-		Patterns currentPattern = Patterns.DATA_ACCESS_OBJECT;
+		Patterns currentPattern = Patterns.FACTORY;
 
 		try {
 			PatternExampleRunner.PatternExampleRunnerHolder.getInstance()
