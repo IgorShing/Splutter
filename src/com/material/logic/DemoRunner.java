@@ -13,7 +13,7 @@ public class DemoRunner {
 
 	public static void main(String[] args) {
 
-		Patterns currentPattern = Patterns.FACTORY;
+		Patterns currentPattern = Patterns.FILTER;
 
 		try {
 			PatternExampleRunner.PatternExampleRunnerHolder.getInstance()

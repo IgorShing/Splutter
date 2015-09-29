@@ -15,7 +15,7 @@ public enum Patterns {
 	DECORATOR("Decorator pattern"),
 	FACADE("Facade pattern"),
 	FACTORY("Factory pattern"),
-	FILTER("Filter pattern"),
+	FILTER("Filter/Criteria pattern"),
 	FLYWEIGHT("Flyweight pattern"),
 	FRONT_CONTROLLER("Front controller pattern"),
 	INTERCEPTING_FILTER("Intercepting filter pattern"),

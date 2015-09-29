@@ -37,7 +37,7 @@ public class PatternExampleRunner {
 		patternDemos.put(Patterns.DECORATOR, "com.material.patterns.decorator.DecoratorPatternDemo");
 		patternDemos.put(Patterns.FACADE, "com.material.patterns.facade.FacadePatternDemo");
 		patternDemos.put(Patterns.FACTORY, "com.material.patterns.factory.FactoryPatternDemo");
-		patternDemos.put(Patterns.FILTER, "");
+		patternDemos.put(Patterns.FILTER, "com.material.patterns.criteria.CriteriaPatternDemo");
 		patternDemos.put(Patterns.FLYWEIGHT, "");
 		patternDemos.put(Patterns.FRONT_CONTROLLER, "");
 		patternDemos.put(Patterns.INTERCEPTING_FILTER, "");
