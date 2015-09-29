@@ -4,7 +4,7 @@ import com.material.logic.Demo;
 
 public class StrategyPatternDemo implements Demo {
 
-	private static final String NAME = "Strategy Pattern";
+	public static final String	NAME	= "Strategy Pattern";
 
 	@Override
 	public String getName() {
@@ -13,7 +13,8 @@ public class StrategyPatternDemo implements Demo {
 
 	@Override
 	public void run() {
-		ContextStrategyPattern context = new ContextStrategyPattern(new OperationAdd());
+		ContextStrategyPattern context = new ContextStrategyPattern(
+		        new OperationAdd());
 		System.out.println(context.executeStrategy(10, 20));
 	}
 }
