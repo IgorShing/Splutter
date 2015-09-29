@@ -11,68 +11,31 @@ public class PatternExampleRunner {
 
 	private static Map<Patterns, String>	patternDemos	= new HashMap<Patterns, String>();
 
-<<<<<<< HEAD
-	private PatternExampleRunner()
-	{
-		patternDemos.put(Patterns.ABSTRACT_FACTORY,"");
-		patternDemos.put(Patterns.ADAPTER,"");
-		patternDemos.put(Patterns.BRIDGE,"");
-		patternDemos.put(Patterns.BUILDER,"");
-		patternDemos.put(Patterns.BUSINESS_DELEGATE,"");
-		patternDemos.put(Patterns.CHAIN_OF_RESPONSIBILITY,"");
-		patternDemos.put(Patterns.COMMAND,"");
-		patternDemos.put(Patterns.COMPOSITE_ENTITY,"");
-		patternDemos.put(Patterns.COMPOSITE,"com.material.patterns.composite.CompositePatternDemo");
-		patternDemos.put(Patterns.DATA_ACCESS_OBJECT,"");
-		patternDemos.put(Patterns.DECORATOR,"com.material.patterns.decorator.DecoratorPatternDemo");
-		patternDemos.put(Patterns.FACADE,"com.material.patterns.facade.FacadePatternDemo");
-		patternDemos.put(Patterns.FACTORY,"");
-		patternDemos.put(Patterns.FILTER,"");
-		patternDemos.put(Patterns.FLYWEIGHT,"");
-		patternDemos.put(Patterns.FRONT_CONTROLLER,"");
-		patternDemos.put(Patterns.INTERCEPTING_FILTER,"");
-		patternDemos.put(Patterns.INTERPRETER,"");
-		patternDemos.put(Patterns.ITERATOR,"");
-		patternDemos.put(Patterns.MEDIATOR,"");
-		patternDemos.put(Patterns.MEMENTO,"");
-		patternDemos.put(Patterns.MVC,"");
-		patternDemos.put(Patterns.NULL_OBJECT,"");
-		patternDemos.put(Patterns.OBSERVER,"");
-		patternDemos.put(Patterns.PROTOTYPE,"");
-		patternDemos.put(Patterns.PROXY,"");
-		patternDemos.put(Patterns.SERVICE_LOCATOR,"");
-		patternDemos.put(Patterns.SINGLETON,"");
-		patternDemos.put(Patterns.STATE,"");
-		patternDemos.put(Patterns.STRATEGY,"com.material.patterns.strategy.StrategyPatternDemo");
-		patternDemos.put(Patterns.TEMPLATE,"");
-		patternDemos.put(Patterns.TRANSFER_OBJECT,"");
-		patternDemos.put(Patterns.VISITOR,"");
-=======
 	private PatternExampleRunner() {
 		patternDemos.put(Patterns.ABSTRACT_FACTORY,
-		        "com.material.patterns.abstractfactory.AbsractFactoryDemo");
+				"com.material.patterns.abstractfactory.AbsractFactoryDemo");
 		patternDemos.put(Patterns.ADAPTER,
 				"com.material.patterns.adapter.AdapterDemo");
 		patternDemos.put(Patterns.BRIDGE,
-		        "com.material.patterns.bridge.BridgeDemo");
+				"com.material.patterns.bridge.BridgeDemo");
 		patternDemos.put(Patterns.BUILDER,
 				"com.material.patterns.builder.BuilderDemo");
 		patternDemos.put(Patterns.BUSINESS_DELEGATE,
-		        "com.material.patterns.businessdelegate.BusinessDelegateDemo");
+				"com.material.patterns.businessdelegate.BusinessDelegateDemo");
 		patternDemos
 		.put(Patterns.CHAIN_OF_RESPONSIBILITY,
 				"com.material.patterns.chainofresponsibility.ChainOfResponsibilityDemo");
 		patternDemos.put(Patterns.COMMAND,
-		        "com.material.patterns.command.CommandPatternDemo");
+				"com.material.patterns.command.CommandPatternDemo");
 		patternDemos
 		.put(Patterns.COMPOSITE_ENTITY,
 				"com.material.patterns.compositeentity.CompositeEntityPatternDemo");
 		patternDemos.put(Patterns.COMPOSITE,
-		        "com.material.patterns.composite.CompositePatternDemo");
+				"com.material.patterns.composite.CompositePatternDemo");
 		patternDemos.put(Patterns.DATA_ACCESS_OBJECT,
-		        "com.material.patterns.dao.DaoPatternDemo");
-		patternDemos.put(Patterns.DECORATOR, "");
-		patternDemos.put(Patterns.FACADE, "");
+				"com.material.patterns.dao.DaoPatternDemo");
+		patternDemos.put(Patterns.DECORATOR, "com.material.patterns.decorator.DecoratorPatternDemo");
+		patternDemos.put(Patterns.FACADE, "com.material.patterns.facade.FacadePatternDemo");
 		patternDemos.put(Patterns.FACTORY, "");
 		patternDemos.put(Patterns.FILTER, "");
 		patternDemos.put(Patterns.FLYWEIGHT, "");
@@ -91,11 +54,11 @@ public class PatternExampleRunner {
 		patternDemos.put(Patterns.SINGLETON, "");
 		patternDemos.put(Patterns.STATE, "");
 		patternDemos.put(Patterns.STRATEGY,
-		        "com.material.patterns.strategy.StrategyPatternDemo");
+				"com.material.patterns.strategy.StrategyPatternDemo");
 		patternDemos.put(Patterns.TEMPLATE, "");
 		patternDemos.put(Patterns.TRANSFER_OBJECT, "");
 		patternDemos.put(Patterns.VISITOR, "");
->>>>>>> 65eb446419e2b89596f98fa85a3784fd9c667d74
+
 	}
 
 	/**
@@ -109,7 +72,7 @@ public class PatternExampleRunner {
 
 		if (className == null || className.trim().isEmpty()) {
 			throw new Exception(
-			        "Error while retrieving the pattern name. No such an example.");
+					"Error while retrieving the pattern name. No such an example.");
 		}
 
 		Object patternExample;
