@@ -20,7 +20,5 @@ public class CompositeEntityPatternDemo implements Demo {
 
 		client.setData("Second Test", "Data1");
 		client.printData();
-
 	}
-
 }
