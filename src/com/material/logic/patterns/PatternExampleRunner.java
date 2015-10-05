@@ -46,7 +46,7 @@ public class PatternExampleRunner {
 		patternDemos.put(Patterns.MEDIATOR, "com.material.patterns.mediator.MediatorPatternDemo");
 		patternDemos.put(Patterns.MEMENTO, "com.material.patterns.memento.MementoPatternDemo");
 		patternDemos.put(Patterns.MVC, "com.material.patterns.mvc.MvcPatternDemo");
-		patternDemos.put(Patterns.NULL_OBJECT, "");
+		patternDemos.put(Patterns.NULL_OBJECT, "com.material.patterns.nullobject.NullObjectPatternDemo");
 		patternDemos.put(Patterns.OBSERVER, "");
 		patternDemos.put(Patterns.PROTOTYPE, "");
 		patternDemos.put(Patterns.PROXY, "");

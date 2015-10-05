@@ -13,7 +13,7 @@ public class DemoRunner {
 
 	public static void main(String[] args) {
 
-		Patterns currentPattern = Patterns.MVC;
+		Patterns currentPattern = Patterns.NULL_OBJECT;
 		try {
 			PatternExampleRunner.PatternExampleRunnerHolder.getInstance()
 			.runPatternExample(currentPattern);
