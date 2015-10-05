@@ -41,7 +41,7 @@ public class PatternExampleRunner {
 		patternDemos.put(Patterns.FLYWEIGHT, "com.material.patterns.flyweight.FlyweightPatternDemo");
 		patternDemos.put(Patterns.FRONT_CONTROLLER, "com.material.patterns.frontcontroller.FrontControllerDemo");
 		patternDemos.put(Patterns.INTERCEPTING_FILTER, "com.material.patterns.interceptingfilter.InterceptingFilterDemo");
-		patternDemos.put(Patterns.INTERPRETER, "");
+		patternDemos.put(Patterns.INTERPRETER, "com.material.patterns.interpreter.InterpreterPatternDemo");
 		patternDemos.put(Patterns.ITERATOR, "");
 		patternDemos.put(Patterns.MEDIATOR, "");
 		patternDemos.put(Patterns.MEMENTO, "");

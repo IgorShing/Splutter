@@ -13,7 +13,7 @@ public class DemoRunner {
 
 	public static void main(String[] args) {
 
-		Patterns currentPattern = Patterns.INTERCEPTING_FILTER;
+		Patterns currentPattern = Patterns.INTERPRETER;
 
 		try {
 			PatternExampleRunner.PatternExampleRunnerHolder.getInstance()
