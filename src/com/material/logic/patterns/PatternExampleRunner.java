@@ -42,9 +42,9 @@ public class PatternExampleRunner {
 		patternDemos.put(Patterns.FRONT_CONTROLLER, "com.material.patterns.frontcontroller.FrontControllerDemo");
 		patternDemos.put(Patterns.INTERCEPTING_FILTER, "com.material.patterns.interceptingfilter.InterceptingFilterDemo");
 		patternDemos.put(Patterns.INTERPRETER, "com.material.patterns.interpreter.InterpreterPatternDemo");
-		patternDemos.put(Patterns.ITERATOR, "");
-		patternDemos.put(Patterns.MEDIATOR, "");
-		patternDemos.put(Patterns.MEMENTO, "");
+		patternDemos.put(Patterns.ITERATOR, "com.material.patterns.iterator.IteratorPatternDemo");
+		patternDemos.put(Patterns.MEDIATOR, "com.material.patterns.mediator.MediatorPatternDemo");
+		patternDemos.put(Patterns.MEMENTO, "com.material.patterns.memento.MementoPatternDemo");
 		patternDemos.put(Patterns.MVC, "");
 		patternDemos.put(Patterns.NULL_OBJECT, "");
 		patternDemos.put(Patterns.OBSERVER, "");

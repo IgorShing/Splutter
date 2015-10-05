@@ -13,8 +13,7 @@ public class DemoRunner {
 
 	public static void main(String[] args) {
 
-		Patterns currentPattern = Patterns.INTERPRETER;
-
+		Patterns currentPattern = Patterns.MEMENTO;
 		try {
 			PatternExampleRunner.PatternExampleRunnerHolder.getInstance()
 			.runPatternExample(currentPattern);
