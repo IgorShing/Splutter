@@ -13,7 +13,7 @@ public class DemoRunner {
 
 	public static void main(String[] args) {
 
-		Patterns currentPattern = Patterns.OBSERVER;
+		Patterns currentPattern = Patterns.SINGLETON;
 		try {
 			PatternExampleRunner.PatternExampleRunnerHolder.getInstance()
 			.runPatternExample(currentPattern);

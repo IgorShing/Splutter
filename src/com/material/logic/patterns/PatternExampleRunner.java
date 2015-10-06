@@ -48,10 +48,10 @@ public class PatternExampleRunner {
 		patternDemos.put(Patterns.MVC, "com.material.patterns.mvc.MvcPatternDemo");
 		patternDemos.put(Patterns.NULL_OBJECT, "com.material.patterns.nullobject.NullObjectPatternDemo");
 		patternDemos.put(Patterns.OBSERVER, "com.material.patterns.observer.ObserverPatternDemo");
-		patternDemos.put(Patterns.PROTOTYPE, "");
-		patternDemos.put(Patterns.PROXY, "");
-		patternDemos.put(Patterns.SERVICE_LOCATOR, "");
-		patternDemos.put(Patterns.SINGLETON, "");
+		patternDemos.put(Patterns.PROTOTYPE, "com.material.patterns.prototype.PrototypePatternDemo");
+		patternDemos.put(Patterns.PROXY, "com.material.patterns.proxy.ProxyPatternDemo");
+		patternDemos.put(Patterns.SERVICE_LOCATOR, "com.material.patterns.servicelocator.ServiceLocatorPatternDemo");
+		patternDemos.put(Patterns.SINGLETON, "com.material.patterns.singleton.SingletonPatternDemo");
 		patternDemos.put(Patterns.STATE, "");
 		patternDemos.put(Patterns.STRATEGY,
 				"com.material.patterns.strategy.StrategyPatternDemo");
