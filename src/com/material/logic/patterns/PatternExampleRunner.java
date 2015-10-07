@@ -52,12 +52,12 @@ public class PatternExampleRunner {
 		patternDemos.put(Patterns.PROXY, "com.material.patterns.proxy.ProxyPatternDemo");
 		patternDemos.put(Patterns.SERVICE_LOCATOR, "com.material.patterns.servicelocator.ServiceLocatorPatternDemo");
 		patternDemos.put(Patterns.SINGLETON, "com.material.patterns.singleton.SingletonPatternDemo");
-		patternDemos.put(Patterns.STATE, "");
+		patternDemos.put(Patterns.STATE, "com.material.patterns.state.StatePatternDemo");
 		patternDemos.put(Patterns.STRATEGY,
 				"com.material.patterns.strategy.StrategyPatternDemo");
-		patternDemos.put(Patterns.TEMPLATE, "");
-		patternDemos.put(Patterns.TRANSFER_OBJECT, "");
-		patternDemos.put(Patterns.VISITOR, "");
+		patternDemos.put(Patterns.TEMPLATE, "com.material.patterns.template.TemplatePatternDemo");
+		patternDemos.put(Patterns.TRANSFER_OBJECT, "com.material.patterns.tranferobject.TransferObjectPatternDemo");
+		patternDemos.put(Patterns.VISITOR, "com.material.patterns.visitor.VisitorPatternDemo");
 
 	}
 
